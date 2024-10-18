@@ -32,7 +32,34 @@
 // function multiplication(x, y) {
 //   return x * y;
 // }
-const x = 5;
-const arrowSum = (a, b) => {
-  console.log(a + b);
-};
+// const x = 5;
+// // const arrowSum = (a, b) => {
+// //   console.log(a + b);
+// // };
+
+// let multiply = (a, b) => {
+//   console.log(a * b);
+// };
+// multiply = 5;
+
+// const printHello = () => {
+//   console.log("hello");
+// };
+
+function countVowels(str) {
+  let count = 0;
+
+  //Apna college
+  for (const char of str) {
+    if (
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
+    ) {
+      count++;
+    }
+  }
+  console.log(count);
+}
