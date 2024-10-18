@@ -46,20 +46,47 @@
 //   console.log("hello");
 // };
 
-function countVowels(str) {
-  let count = 0;
+// function countVowels(str) {
+//   let count = 0;
 
-  //Apna college
-  for (const char of str) {
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "o" ||
-      char === "u"
-    ) {
-      count++;
-    }
-  }
-  console.log(count);
-}
+//   //Apna college
+//   for (const char of str) {
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "o" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// }
+
+// const countVowels = (str) => {
+//   let count = 0;
+
+//   //Apna college
+//   for (const char of str) {
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "o" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// // };
+// let arr = [1, 2, 3, 4, 5];
+// arr.forEach((val) => {
+//   console.log(val);
+// });
+
+let arr = ["simara", "bara", "bodhban"];
+arr.forEach((str, idx, arr) => {
+  console.log(str.toUpperCase(), idx, arr);
+});
